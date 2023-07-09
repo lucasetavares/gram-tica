@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
+
+
+:root {
+    --cor1: #D4980B;
+    --cor2: #DE8A0B;
+    --cor3: #C75D00;
+    --cor4: #DE4F0B;
+    --cor5: #D42E0B;
+
+
+    --fonte-titulo: 'Josefin Sans', sans-serif;;
+    --fonte-texto: 'Inconsolata', monospace;
+    --fonte-opcional: 'Agdasima', sans-serif;;
+    --fonte-padrão: 'Arial', 'Helvetica', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrão);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor4));
+    text-align: center;
+    min-height: 80px;
+    padding-top: 45px;
+}
+
+header > h1 {
+    color: whitesmoke;
+    font-family: var(--fonte-opcional);
+    font-size: 2.3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.325);
+}
+
+nav {
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 3px 3px var(--cor5);
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    color: var(--cor5);
+    background-color: whitesmoke;
+}
+
+
+main {
+    min-width: 300px;
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px rgba(245, 245, 220, 0.236);
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main h1 {
+    color: var(--cor3);
+    font-family: var(--fonte-texto);
+    text-align: center;
+    font-size: 2em;
+}
+
+main h2 {
+    color: #C78B00;
+    font-family: var(--fonte-texto);
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px;
+}
+
+main h3 {
+    color: #7A5600;
+    font-family: var(--fonte-texto);
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+main p {
+    margin: 10px 0px;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+.sublinhar {
+    text-decoration: underline;
+}
+
+.destaque {
+    color: red;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+    background-attachment: fixed;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
+}
+
+footer a:hover {
+    background-color: white;
+    text-decoration: underline;
+    color: var(--cor5);
+    border-radius: 5px;
+    padding: 3px;
+}
