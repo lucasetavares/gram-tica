@@ -24,10 +24,12 @@
     padding: 0px;
 }
 
+
 body {
     background-color: var(--cor1);
     font-family: var(--fonte-padrão);
 }
+
 
 header {
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor4));
@@ -35,6 +37,7 @@ header {
     min-height: 80px;
     padding-top: 45px;
 }
+
 
 header > h1 {
     color: whitesmoke;
@@ -45,11 +48,13 @@ header > h1 {
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.325);
 }
 
+
 nav {
     background-color: var(--cor4);
     padding: 10px;
     box-shadow: 0px 3px 3px var(--cor5);
 }
+
 
 nav > a {
     color: white;
@@ -60,6 +65,7 @@ nav > a {
     transition-duration: 0.4s;
     border-radius: 5px;
 }
+
 
 nav > a:hover {
     color: var(--cor5);
@@ -79,6 +85,7 @@ main {
     margin-bottom: 15px;
 }
 
+
 main h1 {
     color: var(--cor3);
     font-family: var(--fonte-texto);
@@ -86,6 +93,7 @@ main h1 {
     font-size: 2em;
     cursor: pointer;
 }
+
 
 main h2 {
     color: #C78B00;
@@ -97,6 +105,7 @@ main h2 {
     cursor: pointer;
 }
 
+
 main h3 {
     color: #7A5600;
     font-family: var(--fonte-texto);
@@ -106,6 +115,7 @@ main h3 {
     cursor: pointer;
 }
 
+
 main p {
     margin: 10px 0px;
     text-align: justify;
@@ -113,6 +123,7 @@ main p {
     line-height: 2em;
     
 }
+
 
 .titulo1::before {
     content: '';
@@ -125,6 +136,7 @@ main p {
     
 }
 
+
 .titulo2::before {
     content: '';
     display: inline-block;
@@ -135,6 +147,7 @@ main p {
     margin-bottom: 6px;
     
 }
+
 
 .titulo3::before {
     content: '';
@@ -147,17 +160,20 @@ main p {
     
 }
 
-.titulo1:after {
-    content: '+';
-    float: right;
-    transition: transform.3s ease;
-}
 
 .titulo1:after {
     content: '+';
     float: right;
     transition: transform.3s ease;
 }
+
+
+.titulo1:after {
+    content: '+';
+    float: right;
+    transition: transform.3s ease;
+}
+
 
 .titulo2:after {
     content: '+';
@@ -165,15 +181,18 @@ main p {
     transition: transform.3s ease;
 }
 
+
 .titulo3:after {
     content: '+';
     float: right;
     transition: transform .3s ease;
 }
 
+
 .sublinhar {
     text-decoration: underline;
 }
+
 
 .destaque {
     color: red;
@@ -187,25 +206,31 @@ main p {
     display: none;
 }
 
+
 .trigger-input {
     display: none;
 }
+
 
 .trigger-input:checked + .trigger-wrapper .conteudos {
     display: block;
 }
 
+
 .trigger-input:checked + .trigger-wrapper .titulo1:after {
     transform: rotate(45deg) scale(1.08);
 }
+
 
 .trigger-input:checked + .trigger-wrapper .titulo2:after {
     transform: rotate(45deg) scale(1.08);
 }
 
+
 .trigger-input:checked + .trigger-wrapper .titulo3:after {
     transform: rotate(45deg) scale(1.08);
 }
+
 
 input:checked + .checkbox-wrapper {
     color: black;
@@ -215,7 +240,6 @@ input:checked + .checkbox-wrapper {
 input:checked + .checkbox-wrapper p {
     display: block;
 }
-
 
 
 
