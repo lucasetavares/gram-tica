@@ -26,16 +26,16 @@
 
 
 body {
-    background-color: var(--cor1);
+    background-color: #9ADFFE;
     font-family: var(--fonte-padrão);
 }
 
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor5), var(--cor4));
+    background-color: #092857;
     text-align: center;
-    min-height: 80px;
-    padding-top: 45px;
+    min-height: 45px;
+    padding-top: 40px;
 }
 
 
@@ -50,9 +50,9 @@ header > h1 {
 
 
 nav {
-    background-color: var(--cor4);
+    background-color: #092857;
     padding: 10px;
-    box-shadow: 0px 3px 3px var(--cor5);
+    box-shadow: 0px 3px 3px #240caba4;
 }
 
 
@@ -68,14 +68,14 @@ nav > a {
 
 
 nav > a:hover {
-    color: var(--cor5);
+    color: #092857;
     background-color: whitesmoke;
 }
 
 
 main {
     min-width: 300px;
-    max-width: 650px;
+    max-width: 1000px;
     margin: auto;
     padding: 20px;
     background-color: whitesmoke;
@@ -87,28 +87,37 @@ main {
 
 
 main h1 {
-    color: var(--cor3);
-    font-family: var(--fonte-texto);
-    text-align: center;
+    -webkit-text-fill-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
     font-size: 2em;
     cursor: pointer;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
 
+main h1:hover {
+    text-decoration: underline;
+}
 
 main h2 {
-    color: #C78B00;
-    font-family: var(--fonte-texto);
+    color: #2C3238;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
     padding: 5px;
     cursor: pointer;
+    
 }
 
+main h2:hover {
+    text-decoration: underline;
+}
 
 main h3 {
     color: #7A5600;
-    font-family: var(--fonte-texto);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     font-weight: bold;
     display: none;
@@ -118,10 +127,10 @@ main h3 {
 
 main p {
     margin: 10px 0px;
-    text-align: justify;
-    font-size: 1.2em;
+    text-align: left;
+    font-size: 1.4em;
     line-height: 2em;
-    
+    font-family: monospace;
 }
 
 
@@ -130,9 +139,10 @@ main p {
     display: inline-block;
     height: 8px;
     width: 20px;
-    background-color: var(--cor3);
+    background-color: yellow;
     margin-right: 10px;
     margin-bottom: 6px;
+    border: 1.4px solid black;
     
 }
 
@@ -142,7 +152,7 @@ main p {
     display: inline-block;
     height: 6px;
     width: 15px;
-    background-color: #C78B00;;
+    background-color: #2C3238;;
     margin-right: 10px;
     margin-bottom: 6px;
     
@@ -164,28 +174,21 @@ main p {
 .titulo1:after {
     content: '+';
     float: right;
-    transition: transform.3s ease;
-}
-
-
-.titulo1:after {
-    content: '+';
-    float: right;
-    transition: transform.3s ease;
+    transition: transform.4s ease;
 }
 
 
 .titulo2:after {
     content: '+';
     float: right;
-    transition: transform.3s ease;
+    transition: transform.4s ease;
 }
 
 
 .titulo3:after {
     content: '+';
     float: right;
-    transition: transform .3s ease;
+    transition: transform .4s ease;
 }
 
 
@@ -198,7 +201,33 @@ main p {
     color: red;
 }
 
+.letrarosa {
+    color: rgb(232, 22, 190);
+}
 
+.letraazul {
+    color: blue;
+}
+
+.letraroxa {
+    color: rgb(154, 66, 242);
+}
+
+.letramarrom {
+    color: #a3270e;
+}
+
+.byellow {
+    background-color: yellow;
+}
+
+.borange {
+    background-color: orange;
+}
+
+.bgreen {
+    background-color: greenyellow;
+}
 
 .conteudos {
     padding: 10px;
@@ -214,7 +243,7 @@ main p {
 
 .trigger-input:checked + .trigger-wrapper .conteudos {
     display: block;
-}
+} 
 
 
 .trigger-input:checked + .trigger-wrapper .titulo1:after {
@@ -232,24 +261,15 @@ main p {
 }
 
 
-input:checked + .checkbox-wrapper {
-    color: black;
-}
-
-
-input:checked + .checkbox-wrapper p {
-    display: block;
-}
-
-
 
 footer {
-    background-color: var(--cor5);
+    background-color: #092857;
     color: white;
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
     background-attachment: fixed;
+    margin-top: 82px;
 }
 
 footer a {
@@ -262,7 +282,7 @@ footer a {
 footer a:hover {
     background-color: white;
     text-decoration: underline;
-    color: var(--cor5);
+    color: #092857;
     border-radius: 5px;
     padding: 3px;
 }
