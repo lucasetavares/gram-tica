@@ -259,7 +259,7 @@ main p {
 } 
 
 
-.trigger-input:checked + .trigger-wrapper .titulo1:after {
+.principal-input:checked + .trigger-wrapper .titulo1:after {
     transform: rotate(45deg) scale(1.08);
 }
 
