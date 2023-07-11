@@ -108,6 +108,7 @@ main h2 {
     text-align: left;
     padding: 5px;
     cursor: pointer;
+    display: none;
     
 }
 
@@ -235,6 +236,18 @@ main p {
     display: none;
 }
 
+
+.principal-input {
+    display:none;
+}
+
+.principal-input:checked + .trigger-wrapper .conteudos {
+    display: none;
+} 
+
+.principal-input:checked + .trigger-wrapper h2 {
+    display: block;
+} 
 
 .trigger-input {
     display: none;
