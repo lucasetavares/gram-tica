@@ -238,7 +238,7 @@ main p {
 
 
 .principal-input {
-    display:none;
+    display: none;
 }
 
 .principal-input:checked + .trigger-wrapper .conteudos {
