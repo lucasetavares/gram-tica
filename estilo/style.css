@@ -26,7 +26,7 @@
 
 
 body {
-    background-color: #9ADFFE;
+    background-color: black;
     font-family: var(--fonte-padrão);
 }
 
@@ -241,9 +241,11 @@ main p {
     display: none;
 }
 
+
 .principal-input:checked + .trigger-wrapper .conteudos {
     display: none;
 } 
+
 
 .principal-input:checked + .trigger-wrapper h2 {
     display: block;
