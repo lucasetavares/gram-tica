@@ -141,6 +141,19 @@ main h3 {
     display: none;
 }
 
+
+
+main h4 {
+    color: #BB6B00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+.titulo4 {
+    display: none;
+}
+
+
 main p {
     margin: 10px 0px;
     text-align: left;
@@ -175,16 +188,7 @@ main p {
 }
 
 
-.titulo3::before {
-    content: '';
-    display: inline-block;
-    height: 12px;
-    width: 24px;
-    background-color: #7A5600;
-    margin-right: 10px;
-    margin-bottom: 6px;
-    
-}
+
 
 
 .titulo1:after {
@@ -201,11 +205,7 @@ main p {
 }
 
 
-.titulo3:after {
-    content: '+';
-    float: right;
-    transition: transform .4s ease;
-}
+
 
 
 .sublinhar {
@@ -303,9 +303,6 @@ main p {
 }
 
 
-.trigger-input:checked + .trigger-wrapper .titulo3:after {
-    transform: rotate(45deg) scale(1.08);
-}
 
 
 
