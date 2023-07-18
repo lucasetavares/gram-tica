@@ -56,6 +56,15 @@ header p {
     
 }
 
+header  a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
 nav {
     background-color: #092857;
     padding: 10px;
