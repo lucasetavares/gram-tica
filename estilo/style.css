@@ -183,6 +183,19 @@ main p > a:hover {
 }
 
 
+main img {
+    display: block;
+    max-width: 850px;
+    min-width: 550px;
+    border: 2px solid black;
+}
+
+main img.indentacao {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
 hr {
     display: none;
 }
